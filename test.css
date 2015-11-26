@@ -1,8 +1,7 @@
 body{
-/*
-    height:2327px;
-    width:1350px;
-*/
+    height:2392px;
+    width:1689px;
+
     margin:auto;
     display:block;
     position:relative;
@@ -54,7 +53,8 @@ header{
     padding-left:20px;
 }
 .header-title h1{
-    font-size: 60px;
+    font-size: 100px;
+    /*font-weight:900;*/
 }
 .header-img{
     display: inline-block;
@@ -109,7 +109,7 @@ hr{
     font-family: HelveticaNeue-bold;
     color:white;
     margin-top:0px;
-    padding-top:10px;
+    padding-top:13px;
     padding-bottom:5px;
     text-shadow: 0px -1px 1px hsl(194, 100%, 3%);
 }
@@ -348,14 +348,15 @@ hr{
 }
 #final-block .panel{
     height: 100%;
+    border:0;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
 }
 #final-block .panel-heading{
     font-family: HelveticaNeue-bold;
+    padding:10px 0px 3px;
     color:white;
     text-shadow: 0px -1px 1px hsl(194, 100%, 3%);
     text-align:center;
-    font-weight:900;
     font-size:2em;
     background:linear-gradient(180deg, hsl(194, 100%, 44%), hsl(194, 100%, 33%));
 }
