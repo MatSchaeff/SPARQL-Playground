@@ -19,10 +19,9 @@ div {
 
 body::after {
   content: "";
-  background: url(Img/bg-node.png);
+  background: url(Img/bg-node-bell.png);
   background-repeat: no-repeat;
   background-position:center center;
-  background-size: cover;
   opacity: 0.2;
   top: 0;
   left: 0;
@@ -45,7 +44,7 @@ main{
 header{
     font-family: HelveticaNeue;
 /*    background-color: #f8f8f8;*/
-    background: linear-gradient(180deg, #fff, #f7f7f7);
+    background: linear-gradient(180deg, #fff, #eee);
     padding:0px 15px 15px;
 /*    border-bottom: 1px solid #eee;*/
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
@@ -76,7 +75,7 @@ header{
     box-shadow: inset -1px 0px 1px -1px #fff;
 }
 hr{
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ddd;
     border-bottom: 1px solid #fff;
 }
 #additional-infos{
@@ -153,10 +152,14 @@ hr{
 #presentation img{
 /*    width: inherit;*/
 /*    height: auto;*/
-    max-height: 300px;
+    max-height: 60%;
+    box-shadow: 2px 2px 5px #888;
 /*    max-height: 20%;*/
 /*    max-height:200px;*/
 /*    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);*/
+}
+#tumb2 img{
+    max-width:80%;
 }
 #presentation h3{
     font-family: HelveticaNeue;
@@ -252,6 +255,7 @@ hr{
 */
 #triple-block{
     margin-top:40px;
+    width: 100%;
     
 }
 .block-head-border{
@@ -264,7 +268,7 @@ hr{
     
 }
 .block-head-content{
-    background: linear-gradient(180deg, #ffffff, #f0f0f0);;
+    background: linear-gradient(150deg, #fff, #ddd);;
     width: 88%;
     height: 88%;
     border-radius: 50%;
@@ -283,6 +287,11 @@ hr{
 }
 .block-head-img{
     height:80px;
+}
+#teach .block-head-img{
+    height:120px;
+    margin-top:-20px;
+    margin-bottom:-20px;
 }
 .block-head-img img{
     height:100%;
@@ -381,8 +390,9 @@ hr{
 }
 #build img{
     float:right;
-    width:50%;
+    width:40%;
     margin-top:40px;
+    margin-right:20px;
 }
 #build h4{
     font-size:1.2em;
@@ -391,52 +401,75 @@ hr{
 #build ol{
     list-style-type: decimal;
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-top:40px;
 }
 #build li{
     margin-top:10px;
 }
 #build li span{
-    font-weight: 500;
+    font-size:0.8em;
+    font-weight: 400;
+}
+#build strong{
+    /*font-weight: 900;*/
+    font-family: HelveticaNeue-bold;
+    font-size: 1.2em;
 }
 footer a{
-    color:black;
+    font-size: 1.1em;
+    color:#fff;
 }
 footer{
-    height:50px;
+    font-family: HelveticaNeue;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 100;
+    width:100%;
+    height:55px;
     background: linear-gradient(180deg, hsl(194, 100%, 44%), hsl(194, 100%, 33%));
-    font-size:1.4em;
+    font-size:1.5em;
     vertical-align: middle;
     border-top: 1px solid #333;
 }
 footer strong{
-    font-family: HelveticaNeue;
-    font-weight: 900;
+    color: #ccc;
+    font-weight: 100;
     font-size:1.2em;
 }
-footer > div{
-    display:inline-block;
+footer p{
+    margin-bottom: 0px;
 }
-
+footer > div > div {
+    display: inline-block;
+}
+footer > div {
+    width:100%;
+}
+#github{
+    height: inherit;
+}
 #github p{
-    margin-top:5px;
+    margin-top:10px;
 }
 #support{
+    text-align: center;
     margin-left:-15px;
 }
 #support p{
-    margin-top:5px;
+    margin-top:10px;
 }
 #github img{
     float:left;
-    margin-top: 5px;
-    margin-right: 10px;
-    width: 6%;
+    margin-top: 3px;
+    padding-right: 10px;
+    height: 90%;
 }
 #sib{
-    margin-top:10px;
-    margin-right:-25px;
+    text-align: right;
+    padding-right:15px;
+}
+#sib p{
+    margin-top:11px;
 }
 .thumbnail
 {
