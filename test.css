@@ -1,6 +1,8 @@
-body{
+html{
     height:2392px;
     width:1689px;
+}
+body{
 
     margin:auto;
     display:block;
