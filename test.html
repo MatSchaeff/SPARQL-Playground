@@ -1,0 +1,258 @@
+<html>
+
+<head>
+    <title>Poster</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-title">
+            <h1>SPARQL Playground</h1>
+            <h2>A multi-purpose tool for learning, teaching and testing RDF / SPARQL</h2>
+        </div>
+        <div class="header-img pull-right">
+            <div id="elixir">
+                <img src="Img/Elixir-logo.png" alt="elixir logo" />
+            </div>
+            <div id="sib">
+                <img src="Img/sib_logo.png" alt="sib logo" />
+            </div>
+        </div>
+        <hr>
+        <div id="additional-infos">
+            <div id="main-link">
+                <img src="Img/link.png">
+                <a href="http://sparql-playground.isb-sib.ch">http://sparql-playground.isb-sib.ch</a>
+            </div>
+            <div id="acknownledgment">
+                <img src="Img/people.png"> D. Teixeira, P. Michel, J. Bolleman, ..
+            </div>
+        </div>
+    </header>
+    <div id="main">
+        <div id="presentation-bar">
+            <div id="part1" class="col-md-4 bar-part"></div>
+            <div id="part2" class="col-md-4 bar-part">
+                <h2>SPARQL PLAYGROUND</h2>
+            </div>
+            <div id="part3" class="col-md-4 bar-part"></div>
+        </div>
+        <div class="row" id="presentation">
+            <div class="col-md-4" id="playground1">
+                <div id="tumb1" class="thumbnail">
+                    <div class="caption">
+                        <h3>Editor</h3>
+                        <p>Queries comes with full description and highlight. Result can be exported in html, CSV, JSON and XML</p>
+                    </div>
+                    <img src="Img/playground1.png">
+                </div>
+            </div>
+            <div class="col-md-4" id="playground2">
+                <!--
+                <div id="legend">
+                    <h2>SPARQL PLAYGROUND</h2>
+                </div>
+-->
+                <div id="tumb2" class="thumbnail">
+                    <div class="caption">
+                        <h3>Example queries</h3>
+                        <p>See example queries with diagrams</p>
+                    </div>
+                    <img id="img22" src="Img/playground2.png">
+                </div>
+                <!--
+                <div id="description-blocks">
+                    <div id="description1" class="description">
+                        <div class="panel panel-default">
+                              <div class="panel-heading">User-friendly environment</div>
+                              <div class="panel-body">
+                                No programmatic skills required are required to start learning SPARQL. nd super easy scenario.
+                              </div>
+                        </div>
+                    </div>
+                    <div id="description2" class="description">
+                        <div class="panel panel-default">
+                              <div class="panel-heading">User-friendly environment</div>
+                              <div class="panel-body">
+                                No programmatic skills required are required to start learning SPARQL. nd super easy scenario.
+                              </div>
+                        </div>
+                    </div>
+                </div>
+-->
+            </div>
+            <div class="col-md-4" id="playground3">
+                <div id="tumb3" class="thumbnail">
+                    <div class="caption">
+                        <h3>RDF Data</h3>
+                        <p>Visualize the corresponding turtle data. When used on offline mode, edit and re-load it on the fly. L
+                        </p>
+                    </div>
+                    <img src="Img/playground3.png">
+                </div>
+            </div>
+        </div>
+        <div id="triple-block" class="row">
+            <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <div id="learn" class="col-md-4">
+                    <div class="block-head-border">
+                        <div class="block-head-content">
+                            <div class="block-head-title">
+                                <h2>LEARN</h2>
+                            </div>
+                            <div class="block-head-img">
+                                <img src="Img/learn-img.png">
+                            </div>
+                            <div class="block-head-subtitle">
+                                For <strong>students</strong> <br>willing to learn <br>SPARQL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">User-friendly environment</div>
+                            <div class="panel-body">
+                                No programmatic skills required are required to start learning SPARQL. Based on the SNORQL interface, with loads of example queries and a default scenario with less than 100 triples, an intelligent editor, and super easy scenario. Videos????
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Online or Offline</div>
+                            <div class="panel-body">
+                                Either access the online version at or download it to your computer taking all benefits
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="teach" class="col-md-4">
+                    <div class="block-head-border">
+                        <div class="block-head-content">
+                            <div class="block-head-title">
+                                <h2>TEACH</h2>
+                            </div>
+                            <div class="block-head-img">
+                                <img src="Img/teach-img.png">
+                            </div>
+                            <div class="block-head-subtitle">
+                                For <strong>instructors</strong> <br>willing to teach <br>SPARQL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Platform independent</div>
+                            <div class="panel-body">
+                                The application can be download and installed in any student laptop. It only requires 50MB of HDD and works on any OS: Mac, Linux and Windows.
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">No network & concurrency issues</div>
+                            <div class="panel-body">
+                                Since the application is installed locally on students machine, no issues about setting up internet connection or with concurrency at a single SPARQL endpoint.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="develop" class="col-md-4">
+                    <div class="block-head-border">
+                        <div class="block-head-content">
+                            <div class="block-head-title">
+                                <h2>DEVELOP</h2>
+                            </div>
+                            <div class="block-head-img">
+                                <img src="Img/develop-img.png">
+                            </div>
+                            <div class="block-head-subtitle">
+                                For <strong>developers</strong> <br>building test <br>environment
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Dev / Test environment
+                            </div>
+                            <div class="panel-body">
+                                The application comes with a default scenario, but can be configured to work with any RDF data and example queries. This playground can be built for users to get to know your model with nice examples, before hitting the real data
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Technology (Sesame Engine)
+                            </div>
+                            <div class="panel-body">
+                                The backend is developed with SesameDB SPARQL engine + Java Spring Boot and the frontend with AngularJS + Bootstrap. All the source are open source and contribution is welcome.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="final-block" class="row">
+            <div id="examples" class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">PLAYGROUND EXAMPLES</div>
+                    <div class="panel-body">
+                        <h3>neXtProt SPARQL Playground</h3>
+                        <h4><a>https://sparql-playground.nextprot.org</a></h4>
+                        <img id="logo-np" src="Img/np.png">
+                        <p>Real custom scenario used to teach the neXtProt data model at SPARQL tutorials.<br> It is kept online as a recommendation to play with dataset
+                        </p>
+                        <h3>UniProt SPARQL Playground</h3>
+                        <h4><a>http://bc2-2015.sparql.uniprot.org</a></h4>
+                        <img id="logo-uniprot" src="Img/uniprot.png">
+                        <p>Used at BC2 conference in 2015 and likely to be used in future SIB training courses
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="build" class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">BUILD A PLAYGROUND WITH CUSTOM DATASET</div>
+                    <div class="panel-body">
+                        <h4>No programmatic skills are required to set a custom env
+The only requirement: Java 1.7 or higher
+                        </h4>
+                        <img src="Img/build.png">
+                        <ol>
+                            <li><span>Download the latest stable release and extract it :<br>
+                                <a href="https://github.com/calipho-sib/sparql-playground/releases">
+                                    https://github.com/calipho-sib/sparql-playground/releases
+                                </a></span>
+                            </li>
+                            <li><span>Create a directory according to the figure below ex: “my-data”</span>
+                            </li>
+                            <li><span>Edit the prefixes.ttl file in SPARQL format</span>
+                            </li>
+                            <li><span>Add all RDF data in turtle format inside the ttl-data folder</span>
+                            </li>
+                            <li><span>Put all example queries inside the queries folder</span>
+                            </li>
+                            <li><span>Start the java  script :<br>
+                                “java –jar sparq-playground.war my-data”</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="row">
+        <div class="col-md-7" id="github">
+            <img src="Img/github.png">
+            <p>
+                <strong>Open Source :</strong> <a href="https://ww.github.com/calipho-sib/sparql-playground">https://ww.github.com/calipho-sib/sparql-playground</a>
+            </p>
+        </div>
+        <div class="col-md-3" id="support">
+            <p><strong>Support : </strong><a href="support@nextprot.org">support@nextprot.org</a></p>
+        </div>
+        <div class="col-md-2 pull-right" id="sib">
+            <p><a href="www.isb-sib.ch">www.isb-sib.ch</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
