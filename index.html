@@ -27,7 +27,7 @@
                 <a href="http://sparql-playground.isb-sib.ch">http://sparql-playground.isb-sib.ch</a>
             </div>
             <div id="acknownledgment">
-                <img src="Img/people.png"> D. Teixeira, P. Michel, J. Bolleman, ..
+                <img src="Img/people.png">D. Teixeira, P. Michel, J. Bolleman, P. Gaudet, M. Zahn, A. Gateau, M. Schaeffer, F. Nikitin, L. Lane, A. Bairoch
             </div>
         </div>
     </header>
@@ -44,7 +44,11 @@
                 <div id="tumb1" class="thumbnail">
                     <div class="caption">
                         <h3>Editor</h3>
-                        <p>Queries comes with comprehensive description and highlighted in the editor. Results can be exported in html, csv, xml and json.</p>
+                        <p>SPARQL queries come along with a comprehensive
+                          <br>
+                          description and are highlighted in the editor.
+                          <br>
+                          Results can be exported in html, csv, xml and json.</p>
                     </div>
                     <img src="Img/playground1.png">
                 </div>
@@ -58,7 +62,8 @@
                 <div id="tumb2" class="thumbnail">
                     <div class="caption">
                         <h3>Example queries</h3>
-                        <p>Example queries contain diagrams and tags</p>
+                        <p>Example queries can contain diagrams and
+                          <br> a color label and can be filtered out by tags.</p>
                     </div>
                     <img id="img22" src="Img/playground2.png">
                 </div>
@@ -166,14 +171,21 @@
                             <div class="panel-heading">Dev / Test environment
                             </div>
                             <div class="panel-body">
-                                The application comes with a default scenario, but can be configured to work with any RDF data and example queries. This playground can be built for users to get to know your model with nice examples, before hitting the real data
+                                The application can be configured to work with any RDF data and example queries.
+                                <br>
+                                Therefore a training environment can be build to train your users about your data model, before hitting the real dataset.
                             </div>
                         </div>
                         <div class="panel panel-default">
-                            <div class="panel-heading">Technology (Sesame Engine)
+                            <div class="panel-heading">Technology
                             </div>
                             <div class="panel-body">
-                                The backend is developed with SesameDB SPARQL engine + Java Spring Boot and the frontend with AngularJS + Bootstrap. All the source are open source and contribution is welcome.
+                                The backend is implemented using:
+                                <br>
+                                <li> SesameDB SPARQL engine + Java Spring Boot </li>
+                                The frontend uses:
+                                <li> AngularJS + Bootstrap </li>
+                                All the code is open source and contribution is welcome.
                             </div>
                         </div>
                     </div>
@@ -189,12 +201,18 @@
                         <h3>neXtProt SPARQL Playground</h3>
                         <h4><a>https://sparql-playground.nextprot.org</a></h4>
                         <img id="logo-np" src="Img/np.png">
-                        <p>Real custom scenario used to teach the neXtProt data model at SPARQL tutorials.<br> It is kept online as a recommendation to play with dataset
+                        <p>This playground represents a sample of the neXtProt RDF data.
+                          <br>
+                          It is mainly used to teach the neXtProt RDF datamodel at tutorials.
+                          <br>
+                          It is kept online as an interactive learning tool.
                         </p>
                         <h3>UniProt SPARQL Playground</h3>
-                        <h4><a>http://bc2-2015.sparql.uniprot.org</a></h4>
+                        <h4><a>http://tutorial.sparql.uniprot.org</a></h4>
                         <img id="logo-uniprot" src="Img/uniprot.png">
-                        <p>Used at BC2 conference in 2015 and likely to be used in future SIB training courses
+                        <p>This playground also contains a very tiny part of UniProt.
+                          <br>
+                          Used at conferences and at SIB training courses.
                         </p>
                     </div>
                 </div>
@@ -204,29 +222,29 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">BUILD YOUR PLAYGROUND WITH YOUR DATA</div>
                     <div class="panel-body">
-                        <h4>No programmatic skills are required to set a custom environment
+                        <h4>No programmatic skills are required to set a custom playground environment
                           <br>
-                          The only requirement: Java 1.7 or higher
                         </h4>
                         <img src="Img/file-organisation.png">
                         <ol>
-                            <li><span><strong>Download</strong> the latest stable release and extract it :<br>
+                            <li><span><strong>Download</strong> the latest stable release and extract the zipped file:<br>
                                 <a href="https://github.com/calipho-sib/sparql-playground/releases">
                                     https://github.com/calipho-sib/sparql-playground/releases
                                 </a></span>
                             </li>
-                            <li><span><strong>Create</strong> a directory according to the figure below ex: "my-data"</span>
+                            <li><span><strong>Create</strong> a directory according to the figure on the right, ex: "my-data"</span>
                             </li>
-                            <li><span><strong>Edit</strong> the prefixes.ttl file in SPARQL format</span>
+                            <li><span><strong>Edit</strong> the preconfigured prefixes.ttl file in SPARQL format</span>
                             </li>
-                            <li><span><strong>Add</strong> all RDF data in turtle format inside the ttl-data folder</span>
+                            <li><span><strong>Add</strong> all your RDF data in the turtle format inside the ttl-data folder</span>
                             </li>
                             <li><span><strong>Put</strong> all example queries inside the queries folder</span>
                             </li>
-                            <li><span><strong>Start</strong> the java  script :<br>
+                            <li><span><strong>Start</strong> the java  application (you need Java 1.7 or higher) :<br>
                                 java -jar sparq-playground.war my-data</span>
                             </li>
                         </ol>
+                        <strong>Hint</strong><span> You can also copy the default folder and adapt it according to your dataset</span>
                     </div>
                 </div>
             </div>
@@ -234,17 +252,17 @@
     </div>
     <footer>
         <div class="row">
-            <div class="col-md-7" id="github">
+            <div class="col-md-6" id="github">
                 <img src="Img/github.png">
                 <p>
-                    <strong>Open Source :</strong> <a href="https://ww.github.com/calipho-sib/sparql-playground">https://ww.github.com/calipho-sib/sparql-playground</a>
+                    <strong>Open Source:</strong> <a href="https://ww.github.com/calipho-sib/sparql-playground">https://ww.github.com/calipho-sib/sparql-playground</a>
                 </p>
             </div>
-            <div class="col-md-3" id="support">
-                <p><strong>Support : </strong><a href="support@nextprot.org">support@nextprot.org</a></p>
+            <div class="col-md-2" id="support">
+              <p><a href="www.isb-sib.ch">www.isb-sib.ch</a></p>
             </div>
-            <div class="col-md-2 pull-right" id="sib">
-                <p><a href="www.isb-sib.ch">www.isb-sib.ch</a></p>
+            <div class="col-md-4 pull-right" id="sib">
+              <p><strong>Support : </strong><a href="support@nextprot.org">support@nextprot.org</a></p>
             </div>
         </div>
     </footer>
