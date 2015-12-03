@@ -456,14 +456,14 @@ footer > div {
     height: inherit;
 }
 #github p{
-    margin-top:10px;
+    margin-top:12px;
 }
 #support{
     text-align: center;
     margin-left:-15px;
 }
 #support p{
-    margin-top:10px;
+    margin-top:12px;
 }
 #github img{
     float:left;
@@ -471,12 +471,12 @@ footer > div {
     padding-right: 10px;
     height: 90%;
 }
-#sib{
+footer #sib{
     text-align: right;
     padding-right:15px;
 }
 #sib p{
-    margin-top:11px;
+    margin-top:15px;
 }
 .thumbnail
 {
