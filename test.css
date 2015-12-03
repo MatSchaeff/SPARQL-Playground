@@ -54,8 +54,33 @@ header{
     padding-left:20px;
 }
 .header-title h1{
+    display:inline-block;
     font-size: 100px;
+    margin-top:20px;
     /*font-weight:900;*/
+}
+.header-title h2{
+    margin-top: 10px;
+}
+.header-title #icon{
+    margin-top: 10px;
+    margin-right: 20px;
+    float:left;
+/*
+    display:inline-block;
+    margin-right:10px;
+    margin-top:0px;
+    vertical-align: middle;
+*/
+/*    padding-top:120px;*/
+}
+.header-title #icon-play{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 86.6px;
+    border-color: transparent transparent transparent hsl(194, 100%, 44%);
+
 }
 .header-img{
     display: inline-block;
@@ -69,6 +94,11 @@ header{
 .header-img img{
     height:100%;
     padding:20px;
+}
+.header-img #sib{
+/*    padding-right:20px;*/
+    border-right: 1px solid #eee;
+    box-shadow: 2px 0px 1px -1px #fff;
 }
 #elixir{
     border-right: 1px solid #eee;
@@ -271,7 +301,7 @@ hr{
     
 }
 .block-head-content{
-    background: linear-gradient(150deg, #fff, #ddd);;
+    background: linear-gradient(150deg, #fff, #ddd);
     width: 88%;
     height: 88%;
     border-radius: 50%;
@@ -279,6 +309,7 @@ hr{
     box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
 .block-head-title{
     padding-top:10px;
 }
@@ -293,13 +324,11 @@ hr{
     margin-top:-10px;
     margin-bottom:-10px;
 }
-/*
-#teach .block-head-img{
-    height:90px;
-    margin-top:-20px;
-    margin-bottom:-20px;
+#learn .block-head-img{
+    height:110px;
+    margin-top:-15px;
+    margin-bottom:-15px;
 }
-*/
 .block-head-img img{
     height:100%;
 }
@@ -377,6 +406,7 @@ hr{
     text-align:center;
     font-size:2em;
     background:linear-gradient(180deg, hsl(194, 100%, 44%), hsl(194, 100%, 33%));
+/*    border: 1px solid hsl(194,100%,33%);*/
 }
 #final-block h3{
     font-family: HelveticaNeue;
@@ -429,7 +459,7 @@ footer a{
 }
 footer{
     font-family: HelveticaNeue;
-    text-shadow: 0 -2px 0 rgba(0,0,0,0.15);
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
     font-weight: 100;
     width:100%;
     height:55px;
